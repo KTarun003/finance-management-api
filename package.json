@@ -1,0 +1,19 @@
+{
+  "name": "finance-management-api",
+  "version": "0.0.1",
+  "description": "API for finance-management-api Desktop App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTarun003/finance-management-api.git"
+  },
+  "author": "K Tarun Reddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KTarun003/finance-management-api/issues"
+  },
+  "homepage": "https://github.com/KTarun003/finance-management-api#readme"
+}
