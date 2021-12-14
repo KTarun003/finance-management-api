@@ -1,0 +1,7 @@
+# import AuthData from 'AuthData.graphql'
+# import Loan from 'Loan.graphql'
+
+type RootQuery {
+    loans: [Loan!]!
+    login(email: String!, password: String!): AuthData!
+}

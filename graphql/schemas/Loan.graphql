@@ -1,0 +1,17 @@
+
+"Description for Loan"
+type Loan{
+    id:ID!
+    name:String!
+    asset:String
+    "This is the Date of Issue of the Loan"
+    idate:String! # Issue Date
+    "This is the Date of Return of the Loan"
+    rdate:String!
+    principle:Float
+    interest:Float
+    rate:Int
+    amount:Float
+    status:String
+    period:Int
+}

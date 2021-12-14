@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/KTarun003/finance-management-api#readme",
   "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.3.3",
+    "@graphql-tools/load": "^7.4.1",
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
-    "graphql": "^15.8.0"
+    "graphql": "^15.8.0",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
