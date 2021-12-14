@@ -1,0 +1,15 @@
+# import Loan from 'Loan.graphql'
+
+type Dashboard{
+    totalLoans:Int
+    totalPrinciple:Float
+    totalInterest:Float
+    previousLoans:Int
+    previousPrinciple:Float
+    previousInterest:Float
+    currentLoans:Int
+    currentPrinciple:Float
+    currentInterest:Float
+    todayLoans:[Loan!]!
+    tomorrowLoans:[Loan!]!
+}

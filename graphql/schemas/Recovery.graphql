@@ -1,0 +1,7 @@
+type Recovery{
+    id:ID!
+    name:String!
+    date:String
+    recoveryType:String
+    amount:Float
+}

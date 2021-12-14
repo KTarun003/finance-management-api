@@ -1,7 +1,12 @@
 # import AuthData from 'AuthData.graphql'
 # import Loan from 'Loan.graphql'
+# import Recovery from 'Recovery.graphql'
+# import Dashboard from 'Dashboard.graphql'
 
 type RootQuery {
     loans: [Loan!]!
+    pendingLoans: [Loan!]!
+    recoveries:[Recovery!]!
+    dashboard:Dashboard!
     login(email: String!, password: String!): AuthData!
 }

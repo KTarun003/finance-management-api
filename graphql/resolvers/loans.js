@@ -41,5 +41,22 @@ module.exports = {
 				period: 30
 			}
 		];
+	},
+	pendingLoans: async () => {
+		return [
+			{
+				id: "100",
+				name: "Sandra",
+				asset: "Phone",
+				idate: new Date(2021, 8, 30).toString(),
+				rdate: new Date(2021, 9, 31).toString(),
+				principle: 10000.00,
+				interest: 1000.00,
+				rate: 10,
+				amount: 11000.00,
+				status: "Not Paid",
+				period: 30
+			}
+		];
 	}
 }
