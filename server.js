@@ -1,4 +1,5 @@
-const express = require("express");
+require('dotenv').config();
+const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
 const resolvers = require('./graphql/resolvers');
 const rootSchema = require('./graphql/schemas');
